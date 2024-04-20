@@ -1,0 +1,92 @@
+const emailSignature = `
+<table cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; font-family: Arial; white-space: nowrap;">
+    <tbody>
+        <tr>
+            <td style="text-align: left; vertical-align: top; padding: 4px 24px 0px 0px;">
+                <table cellpadding="0" cellspacing="0" width="110px" style="border-collapse: collapse; table-layout: fixed; margin: 0px auto;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align: left; vertical-align: top;">
+                                <img src="https://api.logo.com/api/v2/images?logo=logo_8a90e6f6-88c2-41d2-914e-091cb149d06c&amp;name=ChatX&amp;u=2024-03-30T16%3A57%3A01.624Z&amp;width=500&amp;height=500&amp;format=webp&amp;fit=contain&amp;margin_ratio=0.3&amp;quality=30" alt="logo image" style="display: block; max-width: 100%; height: auto; margin-bottom: 12px; border-radius: 50%;">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; display: table; margin: 0px auto;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align: left; vertical-align: top; padding: 0px 6px 0px 0px;">
+                                <a href="https://x.com/www.twitter.com" target="_blank" rel="noreferrer">
+                                    <img src="https://api.logo.com/api/v2/icons/circle/ffffff/000000/x.png?u=asdfg" alt="x icon" style="box-sizing: content-box; display: block; width: 23px; height: 23px;">
+                                </a>
+                            </td>
+                            <td style="text-align: left; vertical-align: top; padding: 0px 6px 0px 0px;">
+                                <a href="https://www.instagram.com/www.instagram.com" target="_blank" rel="noreferrer">
+                                    <img src="https://api.logo.com/api/v2/icons/circle/ffffff/000000/instagram.png?u=asdfg" alt="instagram icon" style="box-sizing: content-box; display: block; width: 23px; height: 23px;">
+                                </a>
+                            </td>
+                            <td style="text-align: left; vertical-align: top;">
+                                <a href="https://www.facebook.com/www.facebook.com" target="_blank" rel="noreferrer">
+                                    <img src="https://api.logo.com/api/v2/icons/circle/ffffff/000000/facebook.png?u=asdfg" alt="facebook icon" style="box-sizing: content-box; display: block; width: 23px; height: 23px;">
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td style="text-align: left; vertical-align: top;">
+                <table cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align: left; vertical-align: top; line-height: 24px;">
+                                <span style="font-size: 18px; margin: 0px; padding: 0px 20px 0px 0px; color: rgb(0, 0, 0); white-space: nowrap; font-weight: bold;">Chatx</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left; vertical-align: top; line-height: 24px;">
+                                <span style="font-size: 14px; margin: 0px; padding: 0px 8px 0px 0px; color: rgb(0, 0, 0); white-space: nowrap;">chatx</span><span style="font-size: 14px; margin: 0px; padding: 0px 20px 0px 8px; color: rgb(0, 0, 0); white-space: nowrap; border-left: 1px solid rgb(0, 0, 0);">Ai</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left; vertical-align: top; line-height: 16px;">
+                                <a href="tel:9993003666" target="_blank" rel="nofollow noreferrer" style="text-decoration: none; color: inherit;">
+                                    <span style="font-size: 12px; margin: 0px; padding: 0px 20px 0px 0px; color: rgb(0, 0, 0); white-space: nowrap;">9993003666</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left; vertical-align: top; line-height: 16px;">
+                                <a href="mailto:ceo@chatx.com" target="_blank" rel="nofollow noreferrer" style="text-decoration: none; color: inherit;">
+                                    <span style="font-size: 12px; margin: 0px; padding: 0px 20px 0px 0px; color: rgb(0, 0, 0); white-space: nowrap;">ceo@chatx.com</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left; vertical-align: top; line-height: 16px;">
+                                <a href="https://www.chatx.com" target="_blank" rel="nofollow noreferrer" style="text-decoration: none; color: inherit;">
+                                    <span style="font-size: 12px; margin: 0px; padding: 0px 20px 0px 0px; color: rgb(0, 0, 0); white-space: nowrap;">www.chatx.com</span>
+                                </a>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p style="font-size: large;">Hi ${fullName},</p>
+            <p style="font-size: large;">We noticed you just tried to reset your chatx account password on ${currentDate},to complete the resetting the password</p>
+            <p style="font-size: large;">Please use the six digit verification code below</p>
+            <p style="font-size: xx-large;">${OTP}</p>
+            <p style="font-size: large;">Thanks for helping us keep your account secure.</p>
+            <p style="font-size: large;">The chatx Team</p>
+            <p style="font-size: large;">Didn't do this? Be sure to change your password right away.</p>
+            <p style="font-size: small; text-align: center;">This email was intended for ${fullName}. Learn why we included this.</p>
+            <p style="font-size: small; text-align: center;"><img src="https://api.logo.com/api/v2/images?logo=logo_8a90e6f6-88c2-41d2-914e-091cb149d06c&amp;name=ChatX&amp;u=2024-03-30T16%3A57%3A01.624Z&amp;width=500&amp;height=500&amp;format=webp&amp;fit=contain&amp;margin_ratio=0.3&amp;quality=30" alt="Chatx Logo" style="display: block; max-width: 80px; max-height: 80px; margin: 0 auto 12px; border-radius: 50%;"></p>
+            <p style="font-size: small; text-align: center;">© 2024 Chatx. All rights reserved.</p>
+
+
+
